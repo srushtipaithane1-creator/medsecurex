@@ -1,0 +1,12 @@
+# Secrets - never commit
+.env
+
+# Local database (contains key material and encrypted records)
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
